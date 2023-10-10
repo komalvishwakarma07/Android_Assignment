@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Module3Application"
+        tools:targetApi="31">
+        <activity
+            android:name=".que_9.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_9.FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_8.FragmentLifecycle"
+            android:exported="false" />
+        <activity
+            android:name=".que_7.ActivityLifeCycle"
+            android:exported="false" />
+        <activity
+            android:name=".que_6.RJavaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_5.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".que_5.RegisterPage"
+            android:exported="false" />
+        <activity
+            android:name=".que_3.FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_2.ColorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_1.HelloWordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

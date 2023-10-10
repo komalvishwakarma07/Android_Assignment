@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Module4Application"
+        tools:targetApi="31">
+        <activity
+            android:name=".que_6.NoAnsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_18.SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_17.ToolbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_15.ColorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_14.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_13.CheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_12.NnumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_11.FontActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_4.OneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_10.PdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_9.TableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_8.HideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_5.WebviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_3.CalculationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_2.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_2.NumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".que_1.ReversMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

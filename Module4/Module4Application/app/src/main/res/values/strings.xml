@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Module4Application</string>
+    <string-array name="my_array">
+        <item>Surat</item>
+        <item>Ankleshwar</item>
+        <item>Bharuch</item>
+        <item>Vadoda</item>
+    </string-array>
+</resources>
