@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Update Details"
+        android:textColor="#3949AB"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:textColor="#3949AB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Name"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/email"
+            android:textColor="#3949AB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:textColor="#3949AB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mobile"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etmobile"
+            android:shadowColor= "#3949AB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/update"
+            android:text="Update"
+            android:backgroundTint="#3949AB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
