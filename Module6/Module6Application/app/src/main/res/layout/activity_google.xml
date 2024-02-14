@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ques5.GoogleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google provides various services for Android development using Kotlin, including: \n \n
+
+Firebase: A platform offering features like authentication, real-time database, cloud messaging, and more, to help developers build high-quality apps quickly.\n \n
+
+Android Jetpack: A set of libraries, tools, and guidance to help developers write high-quality apps more easily.\n \n
+
+Google Play Services: APIs for accessing Google's services, such as Maps, Location, and Analytics, enhancing the functionality of Android apps.\n \n
+Google Mobile Ads SDK: Allows developers to integrate advertisements into their apps, enabling monetization.\n \n
+
+Google Analytics for Firebase: Provides insights into app usage and user engagement, helping developers make data-driven decisions.\n \n
+
+These services help developers create feature-rich and engaging Android apps with Kotlin efficiently."
+
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
