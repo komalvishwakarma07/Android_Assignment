@@ -1,0 +1,138 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ques4.PlaySongFromServerActivity">
+
+
+    <!--    &lt;!&ndash; TextView for displaying the song title &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="38dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:text="Chitta Shiddat"-->
+<!--        android:textColor="#0253FF"-->
+<!--        android:textSize="38dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView" />-->
+
+<!--    &lt;!&ndash; ProgressBar for displaying song progress &ndash;&gt;-->
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="43dp"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:layout_marginEnd="43dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+<!--    &lt;!&ndash; Buttons for controlling playback &ndash;&gt;-->
+<!--    <ImageView-->
+<!--        android:id="@+id/btnPrevious"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/progressBar"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/progressBar"-->
+<!--        app:srcCompat="@drawable/baseline_skip_previous_24" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/btnPlay"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/progressBar"-->
+<!--        app:srcCompat="@drawable/baseline_play_arrow_24" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/btnNext"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/progressBar"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/progressBar"-->
+<!--        app:srcCompat="@drawable/baseline_skip_next_24" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/btnPause"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/progressBar"-->
+<!--        app:srcCompat="@drawable/baseline_pause_24" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="257dp"
+        android:layout_height="226dp"
+        android:layout_gravity=""
+        android:layout_marginVertical="12dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="145dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/btnPlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/music_1" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="151dp"
+        android:paddingStart="20dp"
+        android:text="Play song"
+        android:paddingEnd="20dp"
+        android:src="@drawable/baseline_play_arrow_24"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/btnpause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPlay"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="216dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Pause"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
